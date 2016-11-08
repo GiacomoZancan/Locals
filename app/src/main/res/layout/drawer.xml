@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp" android:layout_height="match_parent" android:layout_gravity="start">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/layoutHome"
+        android:background="#d8792d2d"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Home"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/layoutLocali"
+        android:background="#d820d37c"
+        android:layout_height="100dp"
+        android:layout_below="@+id/layoutHome"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Locali"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/layoutEventi"
+        android:background="#d820d37c"
+        android:layout_height="100dp"
+        android:layout_below="@+id/layoutLocali"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Eventi"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/layoutServizi"
+        android:background="#d820d37c"
+        android:layout_height="100dp"
+        android:layout_below="@+id/layoutEventi"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:text="Altro"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

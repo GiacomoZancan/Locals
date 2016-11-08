@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.view_flipper_demo.MainActivity" >
+
+    <item
+        android:id="@+id/flip_by_interval"
+        android:title="@string/flip_by_interval"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/flip_on_click"
+        android:title="@string/flip_on_click"
+        app:showAsAction="always"/>
+
+</menu>

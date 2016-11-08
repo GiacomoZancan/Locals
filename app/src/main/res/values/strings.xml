@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Locals</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="flip_by_interval">Flip by Interval</string>
+    <string name="flip_on_click">Flip on Click</string>
+    <string name="flipper_textview">View Flipper Text</string>
+</resources>
